@@ -17,10 +17,6 @@ ul#nav{
 	float:right;
 	margin-right: 25px;
 }
-ul#nav{
-	float:right;
-	margin-right: 20px;
-}
 ul#nav li{
 	list-style: none;
 	display: inline-block;
@@ -125,3 +121,59 @@ ul#left li a, ul#right li a {
 	margin: 2px 10px 0;
 	letter-spacing: 0.1px;
 }
+
+/* Media Quieries */
+
+@media screen and (min-width: 500px){
+
+	ul#left li a, ul#right li a{
+		margin: 2px auto;
+		padding: 0px 5px 0px 5px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	ul#nav{
+		margin: 0 auto;
+		text-align: center;
+	}
+	ul#nav li{
+		font-size: 13px;
+		margin: 0px auto;
+	}
+
+	div#bottom{
+		margin: 0 auto;
+		font-size: 17px;
+		text-align: center;
+	}
+
+	ul#mobile-nav{
+		list-style-type: none;
+	}
+
+	ul#mobile-nav a{
+		margin: 10px 15px 10px 0px;
+		color: #666;
+		letter-spacing: 0.1px;
+		display: block;
+	}
+
+	ul#left {
+		display: none;
+	}
+
+	ul#right{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 376px){
+	ul#mobile-nav{
+		display: none;
+	}
+}
+
+
+
