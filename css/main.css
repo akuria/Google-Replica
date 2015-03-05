@@ -134,11 +134,12 @@ ul#left li a, ul#right li a {
 
 @media screen and (max-width: 375px) {
 	ul#nav{
+		width: 350px;
 		margin: 0px auto;
 		text-align: center;
 	}
 	ul#nav li{
-		font-size: 13px;
+		font-size: 14px;
 		margin: 0px auto;
 	}
 
